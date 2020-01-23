@@ -5,10 +5,10 @@ python web scraping with beautiful soup
 
 To fetch json data in command prompt:
 
-	Default Anteatery:
+  Default Anteatery:
 	
-		python scraper.py [m/d/y]
+	python scraper.py [m/d/y]
 		
-	Select Anteatery or Brandywine:
+  Select Anteatery or Brandywine:
 	
-		python scraper.py [m/d/y] [ant or brandy]
+	python scraper.py [m/d/y] [ant or brandy]
