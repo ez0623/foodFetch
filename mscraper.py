@@ -1,10 +1,8 @@
-# gets data from anteatery menu for today
+	# gets data from anteatery menu for today
 import requests
+from datetime import date
 from bs4 import BeautifulSoup
 import json
-import sys
-import re
-import os
 
 # period IDs
 BREAKFAST = 49
@@ -37,13 +35,12 @@ def scrape(result, daily=True):
         return headitem or iteminfo
 
     info = soup.find_all(header_and_items)
-    current_section = ''
 
     for item in info:
         if 'section-subtitle' in item['class']:
             current_section = item.text
             menu[current_section] = {}
-        elif current_section:
+        else:
             if 'viewItem' in item['class']:
                 current_item = item.text
                 menu[current_section][current_item] = {}
@@ -59,35 +56,31 @@ def scrape(result, daily=True):
     
         
 if __name__ == '__main__':
-    if  len(sys.argv) > 2 and str(sys.argv[2]) == 'ant':  
-        loc = 'TheAnteatery'
-    elif len(sys.argv) > 2 and str(sys.argv[2]) == 'brandy':
-        loc = 'Brandywine'
-    elif len(sys.argv) == 2:
-        loc = 'TheAnteatery'
-    elif len(sys.argv) > 2:
-        print('INVALID LOCATION')
-        exit()
-    else:
-        print('ENTER DATE')
-        exit()
-
-    date_pattern = re.compile(r'^(0[1-9]|1[012])[- /.] (0[1-9]|[12][0-9]|3[01])[- /.] (19|20)\d\d$.')
-    day_string = str(sys.argv[1])
-
-    if not re.match(date_pattern, day_string):
-        day_menu ={}
-        for i in ('Breakfast', 'Brunch', 'Lunch', 'Dinner', 'Latenight'):
-            payload = get_url(eval(i.upper()), day_string)
-            result = requests.get(f'https://uci.campusdish.com/en/LocationsAndMenus/{loc}?', params = payload)
-            day_menu[i] = scrape(result)
-        #json
+    i = input('Enter meal (BREAKFAST/BRUNCH/LUNCH/DINNER/LATENIGHT): ')
+    if i:
         try:
-            os.mkdir('./data')
-            fp = open((r'./data/' + day_string.replace('/', '-') + f'_{loc}_menu.json'), 'x', encoding = 'utf-8')
-        except FileExistsError:
-            fp = open((r'./data/' + day_string.replace('/', '-') + f'_{loc}_menu.json'), 'w', encoding = 'utf-8')
-        json.dump(day_menu, fp, ensure_ascii=False, indent=4)
-        fp.close()
+            payload = get_url(eval(i))
+        except NameError:
+            print(f'INVALID INPUT: {i}')
+            exit()
+        result = requests.get('https://uci.campusdish.com/en/LocationsAndMenus/TheAnteatery?', params = payload)
+        if result.status_code == 200:
+            menu_dict = scrape(result)
+            print(menu_dict)
+        else:
+            print('ERROR: Could not access menu')
     else:
-        print('INVALID DATE FORMAT')
+        day_menu ={}
+        # implement date selection
+        day = date.today()
+        ########################
+        date = day.strftime('%m/%d/%Y')
+        for i in ('Breakfast', 'Brunch', 'Lunch', 'Dinner', 'Latenight'):
+            payload = get_url(eval(i.upper()), date)
+            result = requests.get('https://uci.campusdish.com/en/LocationsAndMenus/TheAnteatery?', params = payload)
+            day_menu[i] = scrape(result)
+        print(day_menu)
+
+        #json
+        with open(f'{day.strftime("%m_%d_%Y")}.json', 'x') as fp:
+            json.dump(day_menu, fp)
