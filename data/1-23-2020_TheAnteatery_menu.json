@@ -1,0 +1,581 @@
+{
+    "Breakfast": {
+        "Dessert": {
+            "Apple Cinnamon Mini Muffin": {
+                "Calories": 90,
+                "Description": "Freshly baked miniature muffin with apples, raisins and ground cinnamon"
+            },
+            "Cheddar Buttermilk Biscuit": {
+                "Calories": 180,
+                "Description": "Piping hot buttermilk drop biscuit with Cheddar"
+            },
+            "Croissant": {
+                "Calories": 360,
+                "Description": "All-butter flaky croissant"
+            },
+            "Powdered Sugar Donut": {
+                "Calories": 280,
+                "Description": "Freshly baked donut coated with powdered sugar"
+            }
+        },
+        "Traditions": {
+            "Sunrise Tex-Mex Taco": {
+                "Calories": 270,
+                "Description": "Scrambled egg, cheddar, turkey-sausage chili and green onion in a flour tortilla"
+            },
+            "Scrambled Eggs": {
+                "Calories": 140,
+                "Description": "Freshly scrambled eggs"
+            },
+            "Crispy Tater Bites": {
+                "Calories": 140,
+                "Description": "Piping hot crispy potato bites"
+            },
+            "Bacon": {
+                "Calories": 90,
+                "Description": "Crispy bacon"
+            }
+        },
+        "Grill": {
+            "French Toast": {
+                "Calories": 130,
+                "Description": "Golden brown and fluffy cinnamon-spiced thick-cut French toast"
+            }
+        },
+        "Produce Market": {
+            "Cottage Cheese": {},
+            "Hard-Cooked Egg": {},
+            "Strawberry Yogurt": {},
+            "Vanilla Yogurt": {},
+            "Honey Granola": {},
+            "Dried Cranberries": {},
+            "Fresh Grapefruit": {},
+            "Raisins": {},
+            "Red Grapes": {},
+            "Strawberry Cream Cheese": {}
+        },
+        "Sauté": {
+            "Deli Ham": {},
+            "Eggs": {},
+            "Shredded Cheddar Cheese": {},
+            "Chopped Fresh Spinach": {},
+            "Diced Tomatoes": {},
+            "Sauteed Onions": {},
+            "Sauteed Red & Green Peppers": {},
+            "Sliced Mushrooms": {}
+        },
+        "Soups": {
+            "Cream of Rice": {
+                "Calories": 130,
+                "Description": "Homestyle cream of rice cereal"
+            },
+            "Old Fashioned Oatmeal": {
+                "Calories": 110,
+                "Description": "Homestyle oatmeal cereal"
+            }
+        },
+        "Daily Feature": {
+            "Turmeric Tofu Scramble": {
+                "Calories": 120,
+                "Description": "Crumbled tofu sauteed with turmeric, salt and pepper"
+            },
+            "Vegan Home-Style Pancakes": {
+                "Calories": 250,
+                "Description": "Warm vegan pancakes made from scratch with soy milk and vanilla"
+            },
+            "Vegan Blueberry Banana Bread": {
+                "Calories": 260,
+                "Description": "Freshly-baked vegan banana bread with blueberries"
+            }
+        }
+    },
+    "Brunch": {
+        "Dessert": {
+            "Apple Cinnamon Mini Muffin": {
+                "Calories": 90,
+                "Description": "Freshly baked miniature muffin with apples, raisins and ground cinnamon"
+            },
+            "Cheddar Buttermilk Biscuit": {
+                "Calories": 180,
+                "Description": "Piping hot buttermilk drop biscuit with Cheddar"
+            },
+            "Croissant": {
+                "Calories": 360,
+                "Description": "All-butter flaky croissant"
+            },
+            "Powdered Sugar Donut": {
+                "Calories": 280,
+                "Description": "Freshly baked donut coated with powdered sugar"
+            }
+        },
+        "Traditions": {
+            "Sunrise Tex-Mex Taco": {
+                "Calories": 270,
+                "Description": "Scrambled egg, cheddar, turkey-sausage chili and green onion in a flour tortilla"
+            },
+            "Scrambled Eggs": {
+                "Calories": 140,
+                "Description": "Freshly scrambled eggs"
+            },
+            "Crispy Tater Bites": {
+                "Calories": 140,
+                "Description": "Piping hot crispy potato bites"
+            },
+            "Bacon": {
+                "Calories": 90,
+                "Description": "Crispy bacon"
+            }
+        },
+        "Grill": {
+            "French Toast": {
+                "Calories": 130,
+                "Description": "Golden brown and fluffy cinnamon-spiced thick-cut French toast"
+            }
+        },
+        "Produce Market": {
+            "Cottage Cheese": {},
+            "Hard-Cooked Egg": {},
+            "Strawberry Yogurt": {},
+            "Vanilla Yogurt": {},
+            "Honey Granola": {},
+            "Dried Cranberries": {},
+            "Fresh Grapefruit": {},
+            "Raisins": {},
+            "Red Grapes": {},
+            "Strawberry Cream Cheese": {}
+        },
+        "Sauté": {
+            "Deli Ham": {},
+            "Eggs": {},
+            "Shredded Cheddar Cheese": {},
+            "Chopped Fresh Spinach": {},
+            "Diced Tomatoes": {},
+            "Sauteed Onions": {},
+            "Sauteed Red & Green Peppers": {},
+            "Sliced Mushrooms": {}
+        },
+        "Soups": {
+            "Cream of Rice": {
+                "Calories": 130,
+                "Description": "Homestyle cream of rice cereal"
+            },
+            "Old Fashioned Oatmeal": {
+                "Calories": 110,
+                "Description": "Homestyle oatmeal cereal"
+            }
+        },
+        "Daily Feature": {
+            "Turmeric Tofu Scramble": {
+                "Calories": 120,
+                "Description": "Crumbled tofu sauteed with turmeric, salt and pepper"
+            },
+            "Vegan Home-Style Pancakes": {
+                "Calories": 250,
+                "Description": "Warm vegan pancakes made from scratch with soy milk and vanilla"
+            },
+            "Vegan Blueberry Banana Bread": {
+                "Calories": 260,
+                "Description": "Freshly-baked vegan banana bread with blueberries"
+            }
+        }
+    },
+    "Lunch": {
+        "Deli": {
+            "Buffalo Blue Chicken Panini": {
+                "Calories": 350,
+                "Description": "Chicken, Buffalo-blue dressing, onions, banana peppers and pepper jack on a whole grain flatbread"
+            },
+            "Signature Chips": {
+                "Calories": 170,
+                "Description": "Crispy potato chips seasoned with a blend of peppers and garlic"
+            },
+            "American Cheese": {},
+            "Cheddar Cheese": {},
+            "Chunky Chicken Salad": {},
+            "Ham": {},
+            "Pepper Jack Cheese": {},
+            "Provolone Cheese": {},
+            "Salami": {},
+            "Swiss Cheese": {},
+            "Turkey Breast": {},
+            "Deli Tortilla Wrap": {},
+            "Fresh Baked Ciabatta": {},
+            "White Bread": {},
+            "Whole Wheat Bread": {},
+            "Banana Peppers": {},
+            "Green Leaf Lettuce": {},
+            "Sliced Red Onions": {},
+            "Sliced Tomatoes": {},
+            "Chipotle Mayonnaise": {},
+            "Dijon Mustard": {},
+            "Dill Pickle Slices": {},
+            "Mayonnaise": {},
+            "Pesto Mayonnaise": {},
+            "Yellow Mustard": {}
+        },
+        "Dessert": {
+            "Red Velvet Cream Cheese Bar": {
+                "Calories": 270,
+                "Description": "Red velvet dessert bar layered with cream cheese filling"
+            },
+            "Blueberry Crumb Cupcake": {
+                "Calories": 160,
+                "Description": "Freshly baked individual blueberry coffee cake topped with streusel crumb topping and powdered sugar"
+            },
+            "Chocolate Chip Cookie": {
+                "Calories": 120,
+                "Description": "Freshly baked chewy cookie with semisweet chocolate chips"
+            },
+            "Oatmeal Raisin Cookie": {
+                "Calories": 120,
+                "Description": "Freshly baked chewy oatmeal cookie with raisins"
+            },
+            "Sugar Cookie": {
+                "Calories": 120,
+                "Description": "Freshly baked soft sugar cookie"
+            }
+        },
+        "Traditions": {
+            "Pulled Pork": {
+                "Calories": 320,
+                "Description": "Slow braised pork butt with onion, garlic, cumin, chili powder, lime juice and cilantro"
+            },
+            "Brown Rice": {
+                "Calories": 110,
+                "Description": "Tender cooked brown rice"
+            },
+            "Jasmine Rice": {
+                "Calories": 130,
+                "Description": "Thai long grain rice with aromatic, nutty flavor"
+            },
+            "Old-Fashioned Cole Slaw": {
+                "Calories": 150,
+                "Description": "Green cabbage and carrots tossed in a traditional creamy dressing"
+            },
+            "Cheddar Jalapeno Cornbread": {
+                "Calories": 250,
+                "Description": "Freshly baked cornbread with corn, Cheddar and fresh jalapeno chiles"
+            },
+            "Honey Chipotle BBQ Sauce": {}
+        },
+        "Grill": {
+            "Gardenburger(R) Black Bean Veggie Burger": {
+                "Calories": 270,
+                "Description": "Hearty black bean burger made with brown rice, onions, corn, red bell peppers, chilies and a hint of garlic on a white roll"
+            },
+            "Hamburger on White Roll": {
+                "Calories": 330,
+                "Description": "Beef burger on white hamburger roll"
+            },
+            "Crispy Chicken Sandwich": {
+                "Calories": 460,
+                "Description": "Crispy breaded chicken on a roll"
+            },
+            "Hot Dog on Roll": {
+                "Calories": 310,
+                "Description": "Grilled hot dog on roll"
+            },
+            "Grilled Cheese Sandwich": {
+                "Calories": 320,
+                "Description": "Classic grilled American cheese sandwich on white bread"
+            },
+            "Crispy Shoestring French Fries": {
+                "Calories": 180,
+                "Description": "Piping hot crispy shoestring French fries"
+            },
+            "American Cheese": {},
+            "Grilled Chicken Breast": {},
+            "Green Leaf Lettuce": {},
+            "Sliced Red Onions": {},
+            "Sliced Tomatoes": {},
+            "Turkey Chili Con Carne": {},
+            "Dill Pickle Slices": {}
+        },
+        "Round Grill": {
+            "Asian Seared Chicken": {
+                "Calories": 170,
+                "Description": "Seared Asian-marinated chicken"
+            },
+            "Kimchi Fried Rice": {
+                "Calories": 100,
+                "Description": "Pan-fried brown rice with spicy kimchi, ginger, garlic and green onions"
+            },
+            "Flour Tortilla": {},
+            "Kimchi": {},
+            "Pickled Cucumber": {},
+            "Gochujang Sauce": {}
+        },
+        "Oven": {
+            "Classic Cheese Pizza": {
+                "Calories": 250,
+                "Description": "Mozzarella cheese and pizza sauce"
+            },
+            "Hawaiian Pizza": {
+                "Calories": 290,
+                "Description": "Ham, pineapple, mozzarella cheese and pizza sauce"
+            },
+            "Pepperoni Pizza": {
+                "Calories": 280,
+                "Description": "Pepperoni, mozzarella and pizza sauce"
+            }
+        },
+        "Produce Market": {
+            "Hard-Cooked Egg": {
+                "Calories": 80,
+                "Description": "Tender large-size hard-cooked egg"
+            },
+            "Roasted Sweet Potatoes": {
+                "Calories": 100,
+                "Description": "Oven-roasted seasoned cubed sweet potatoes"
+            },
+            "Roasted Beets": {
+                "Calories": 25,
+                "Description": "Roasted beets"
+            },
+            "Penne Pasta Salad": {
+                "Calories": 130,
+                "Description": "Penne pasta, baby spinach and basil tossed with a balsamic vinaigrette"
+            },
+            "Shredded Cheddar Cheese": {},
+            "Sunflower Seeds": {},
+            "Tofu": {},
+            "Chow Mein Noodles": {},
+            "Croutons": {},
+            "Black Beans": {},
+            "Black Olives": {},
+            "Broccoli Florets": {},
+            "Cantaloupe": {},
+            "Chopped Fresh Spinach": {},
+            "Corn": {},
+            "Diced Pineapple": {},
+            "Dried Cranberries": {},
+            "Edamame": {},
+            "Garbanzo Beans": {},
+            "Grape Tomatoes": {},
+            "Green Peas": {},
+            "Grilled Vegetables": {},
+            "Honeydew Melon": {},
+            "Raisins": {},
+            "Romaine & Iceberg Lettuce": {},
+            "Shredded Carrots": {},
+            "Sliced Cucumbers": {},
+            "Sliced Mixed Bell Peppers": {},
+            "Sliced Red Onions": {},
+            "Sliced Watermelon": {},
+            "Spring Salad Mix": {},
+            "Water Chestnuts": {},
+            "Balsamic Vinaigrette": {},
+            "Creamy Caesar Dressing": {},
+            "Honey Mustard Dressing": {},
+            "Lite Italian Dressing": {},
+            "Ranch Dressing": {},
+            "Toasted Barley": {}
+        },
+        "Sauté": {
+            "Margherita Cheese Ravioli": {
+                "Calories": 200,
+                "Description": "Cheese ravioli pan-sauteed with fresh tomato, onion, garlic and fresh basil"
+            },
+            "Garlic Herb Breadstick": {
+                "Calories": 180,
+                "Description": "Freshly baked garlic herb breadstick"
+            }
+        },
+        "Soups": {
+            "Hungarian Goulash Soup": {
+                "Calories": 110,
+                "Description": "Roasted beef, onions, carrots, tomatoes, paprika and garlic simmered in a rich beef stock"
+            },
+            "Moroccan Chickpea Soup": {
+                "Calories": 70,
+                "Description": "A hearty chickpea and vegetable soup flavored with toasted spices"
+            },
+            "White Dinner Roll": {
+                "Calories": 110,
+                "Description": "Soft white dinner roll"
+            }
+        },
+        "Daily Feature": {
+            "Jasmine Rice": {
+                "Calories": 130,
+                "Description": "Thai long grain rice with aromatic, nutty flavor"
+            },
+            "Gardein(R) Chick'n Strips": {},
+            "Diced Mixed Bell Peppers": {},
+            "Diced Onions": {},
+            "Fresh Garlic": {},
+            "Sliced Celery": {},
+            "Sliced Mushrooms": {},
+            "Water Chestnuts": {},
+            "Olive Oil Blend": {},
+            "Sweet & Sour Sauce": {}
+        }
+    },
+    "Dinner": {
+        "Deli": {
+            "Signature Chips": {
+                "Calories": 170,
+                "Description": "Crispy potato chips seasoned with a blend of peppers and garlic"
+            },
+            "American Cheese": {},
+            "Cheddar Cheese": {},
+            "Chunky Chicken Salad": {},
+            "Ham": {},
+            "Pepper Jack Cheese": {},
+            "Provolone Cheese": {},
+            "Salami": {},
+            "Swiss Cheese": {},
+            "Turkey Breast": {},
+            "Deli Tortilla Wrap": {},
+            "Fresh Baked Ciabatta": {},
+            "White Bread": {},
+            "Whole Wheat Bread": {},
+            "Banana Peppers": {},
+            "Green Leaf Lettuce": {},
+            "Sliced Red Onions": {},
+            "Sliced Tomatoes": {},
+            "Chipotle Mayonnaise": {},
+            "Dijon Mustard": {},
+            "Dill Pickle Slices": {},
+            "Mayonnaise": {},
+            "Pesto Mayonnaise": {},
+            "Yellow Mustard": {}
+        },
+        "Produce Market": {
+            "Hard-Cooked Egg": {
+                "Calories": 80,
+                "Description": "Tender large-size hard-cooked egg"
+            },
+            "Roasted Sweet Potatoes": {
+                "Calories": 100,
+                "Description": "Oven-roasted seasoned cubed sweet potatoes"
+            },
+            "Roasted Beets": {
+                "Calories": 25,
+                "Description": "Roasted beets"
+            },
+            "Penne Pasta Salad": {
+                "Calories": 130,
+                "Description": "Penne pasta, baby spinach and basil tossed with a balsamic vinaigrette"
+            },
+            "Shredded Cheddar Cheese": {},
+            "Sunflower Seeds": {},
+            "Tofu": {},
+            "Chow Mein Noodles": {},
+            "Croutons": {},
+            "Black Beans": {},
+            "Black Olives": {},
+            "Broccoli Florets": {},
+            "Cantaloupe": {},
+            "Chopped Fresh Spinach": {},
+            "Corn": {},
+            "Diced Pineapple": {},
+            "Dried Cranberries": {},
+            "Edamame": {},
+            "Garbanzo Beans": {},
+            "Grape Tomatoes": {},
+            "Green Peas": {},
+            "Grilled Vegetables": {},
+            "Honeydew Melon": {},
+            "Raisins": {},
+            "Romaine & Iceberg Lettuce": {},
+            "Shredded Carrots": {},
+            "Sliced Cucumbers": {},
+            "Sliced Mixed Bell Peppers": {},
+            "Sliced Red Onions": {},
+            "Sliced Watermelon": {},
+            "Spring Salad Mix": {},
+            "Water Chestnuts": {},
+            "Balsamic Vinaigrette": {},
+            "Creamy Caesar Dressing": {},
+            "Honey Mustard Dressing": {},
+            "Lite Italian Dressing": {},
+            "Ranch Dressing": {},
+            "Toasted Barley": {}
+        },
+        "Soups": {
+            "Hungarian Goulash Soup": {
+                "Calories": 110,
+                "Description": "Roasted beef, onions, carrots, tomatoes, paprika and garlic simmered in a rich beef stock"
+            },
+            "Moroccan Chickpea Soup": {
+                "Calories": 70,
+                "Description": "A hearty chickpea and vegetable soup flavored with toasted spices"
+            },
+            "White Dinner Roll": {
+                "Calories": 110,
+                "Description": "Soft white dinner roll"
+            }
+        }
+    },
+    "Latenight": {
+        "Dessert": {
+            "Spiced Pumpkin Blondie": {
+                "Calories": 260,
+                "Description": "Spiced pumpkin brown sugar dessert bar with streusel topping and drizzled with cinnamon icing"
+            },
+            "Chocolate Chip Cookie": {
+                "Calories": 120,
+                "Description": "Freshly baked chewy cookie with semisweet chocolate chips"
+            },
+            "Oatmeal Raisin Cookie": {
+                "Calories": 120,
+                "Description": "Freshly baked chewy oatmeal cookie with raisins"
+            },
+            "Sugar Cookie": {
+                "Calories": 120,
+                "Description": "Freshly baked soft sugar cookie"
+            }
+        },
+        "Traditions": {
+            "Deluxe Pizza": {
+                "Calories": 320,
+                "Description": "Asian spiced chicken, snow peas, bell pepper, sweet chili sauce, green onions and spicy peanut sauce"
+            },
+            "Spinach Ricotta Calzone": {
+                "Calories": 650,
+                "Description": "Sauteed spinach, creamy ricotta filling, mozzarella, Parmesan and crushed red pepper"
+            },
+            "Brown Rice": {
+                "Calories": 110,
+                "Description": "Tender cooked brown rice"
+            },
+            "Jasmine Rice": {
+                "Calories": 130,
+                "Description": "Thai long grain rice with aromatic, nutty flavor"
+            }
+        },
+        "Grill": {
+            "Gardenburger(R) Black Bean Veggie Burger": {
+                "Calories": 270,
+                "Description": "Hearty black bean burger made with brown rice, onions, corn, red bell peppers, chilies and a hint of garlic on a white roll"
+            },
+            "Hamburger on White Roll": {
+                "Calories": 330,
+                "Description": "Beef burger on white hamburger roll"
+            },
+            "Crispy Chicken Sandwich": {
+                "Calories": 460,
+                "Description": "Crispy breaded chicken on a roll"
+            },
+            "Hot Dog on Roll": {
+                "Calories": 310,
+                "Description": "Grilled hot dog on roll"
+            },
+            "Grilled Cheese Sandwich": {
+                "Calories": 320,
+                "Description": "Classic grilled American cheese sandwich on white bread"
+            },
+            "Crispy Shoestring French Fries": {
+                "Calories": 180,
+                "Description": "Piping hot crispy shoestring French fries"
+            },
+            "American Cheese": {},
+            "Grilled Chicken Breast": {},
+            "Green Leaf Lettuce": {},
+            "Sliced Red Onions": {},
+            "Sliced Tomatoes": {},
+            "Dill Pickle Slices": {}
+        }
+    }
+}

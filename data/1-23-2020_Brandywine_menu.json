@@ -1,0 +1,406 @@
+{
+    "Breakfast": {
+        "Grubb/ Mainline": {
+            "Scrambled Eggs": {
+                "Calories": 140,
+                "Description": "Freshly scrambled eggs"
+            },
+            "Cinnamon French Toast": {
+                "Calories": 180,
+                "Description": "Golden brown cinnamon-spiced French toast made with white bread"
+            },
+            "Vegan Home-Style Pancakes": {
+                "Calories": 250,
+                "Description": "Warm vegan pancakes made from scratch with soy milk and vanilla"
+            },
+            "Crispy Tater Bites": {
+                "Calories": 140,
+                "Description": "Piping hot crispy potato bites"
+            },
+            "Pork Sausage Patty": {
+                "Calories": 180,
+                "Description": "Sizzling hot golden brown pork sausage patty"
+            }
+        },
+        "Saute": {
+            "Bacon Pieces": {},
+            "Shredded Cheddar Cheese": {},
+            "Chopped Fresh Spinach": {},
+            "Diced Onions": {},
+            "Diced Tomatoes": {},
+            "Sliced Mushrooms": {}
+        },
+        "Soups": {
+            "Old Fashioned Oatmeal": {
+                "Calories": 110,
+                "Description": "Homestyle oatmeal cereal"
+            }
+        },
+        "The Farm Stand/ Salad Bar": {
+            "Cottage Cheese": {},
+            "Strawberry Yogurt": {},
+            "Vanilla Yogurt": {},
+            "Honey Granola": {},
+            "Diced Pineapple": {},
+            "Raisins": {},
+            "Whipped Cream Cheese": {}
+        },
+        "True Balance": {
+            "Fresh Fruit Salad": {
+                "Calories": 35,
+                "Description": "Fresh melon, pineapple and grapes"
+            }
+        },
+        "Honeycakes/Bakery": {
+            "Cheddar Buttermilk Biscuit": {
+                "Calories": 180,
+                "Description": "Piping hot buttermilk drop biscuit with Cheddar"
+            },
+            "Double Chocolate Chip Mini Muffin": {
+                "Calories": 120,
+                "Description": "Freshly baked chocolate muffin chock full of semisweet chocolate chips"
+            },
+            "Powdered Sugar Donut": {
+                "Calories": 280,
+                "Description": "Freshly baked donut coated with powdered sugar"
+            }
+        }
+    },
+    "Brunch": {
+        "Grubb/ Mainline": {
+            "Scrambled Eggs": {
+                "Calories": 140,
+                "Description": "Freshly scrambled eggs"
+            },
+            "Cinnamon French Toast": {
+                "Calories": 180,
+                "Description": "Golden brown cinnamon-spiced French toast made with white bread"
+            },
+            "Vegan Home-Style Pancakes": {
+                "Calories": 250,
+                "Description": "Warm vegan pancakes made from scratch with soy milk and vanilla"
+            },
+            "Crispy Tater Bites": {
+                "Calories": 140,
+                "Description": "Piping hot crispy potato bites"
+            },
+            "Pork Sausage Patty": {
+                "Calories": 180,
+                "Description": "Sizzling hot golden brown pork sausage patty"
+            }
+        },
+        "Saute": {
+            "Bacon Pieces": {},
+            "Shredded Cheddar Cheese": {},
+            "Chopped Fresh Spinach": {},
+            "Diced Onions": {},
+            "Diced Tomatoes": {},
+            "Sliced Mushrooms": {}
+        },
+        "Soups": {
+            "Old Fashioned Oatmeal": {
+                "Calories": 110,
+                "Description": "Homestyle oatmeal cereal"
+            }
+        },
+        "The Farm Stand/ Salad Bar": {
+            "Cottage Cheese": {},
+            "Strawberry Yogurt": {},
+            "Vanilla Yogurt": {},
+            "Honey Granola": {},
+            "Diced Pineapple": {},
+            "Raisins": {},
+            "Whipped Cream Cheese": {}
+        },
+        "True Balance": {
+            "Fresh Fruit Salad": {
+                "Calories": 35,
+                "Description": "Fresh melon, pineapple and grapes"
+            }
+        },
+        "Honeycakes/Bakery": {
+            "Cheddar Buttermilk Biscuit": {
+                "Calories": 180,
+                "Description": "Piping hot buttermilk drop biscuit with Cheddar"
+            },
+            "Double Chocolate Chip Mini Muffin": {
+                "Calories": 120,
+                "Description": "Freshly baked chocolate muffin chock full of semisweet chocolate chips"
+            },
+            "Powdered Sugar Donut": {
+                "Calories": 280,
+                "Description": "Freshly baked donut coated with powdered sugar"
+            }
+        }
+    },
+    "Lunch": {
+        "Ember/Grill": {
+            "Hamburger on White Roll": {
+                "Calories": 330,
+                "Description": "Beef burger on white hamburger roll"
+            },
+            "Hot Dog on Roll": {
+                "Calories": 310,
+                "Description": "Grilled hot dog on roll"
+            },
+            "American Cheese": {},
+            "Beyond Burger® Patty": {},
+            "Cheddar Cheese": {},
+            "Grilled Chicken Breast": {},
+            "Green Leaf Lettuce": {},
+            "Sliced Onions": {},
+            "Sliced Tomatoes": {},
+            "Dill Pickle Slices": {}
+        },
+        "Grubb/ Mainline": {
+            "Herbed Tilapia": {
+                "Calories": 100,
+                "Description": "Oven-baked tilapia seasoned with lemon and fresh herbs"
+            },
+            "Roasted Garlic Potatoes": {
+                "Calories": 150,
+                "Description": "Oven-roasted sliced potatoes tossed with Parmesan, garlic and parsley"
+            },
+            "Green Beans & Carrots": {
+                "Calories": 45,
+                "Description": "Seasoned fresh green beans and carrots"
+            }
+        },
+        "Hearth/Pizza": {
+            "Classic Cheese Pizza": {
+                "Calories": 250,
+                "Description": "Mozzarella cheese and pizza sauce"
+            },
+            "Pepperoni Pizza": {
+                "Calories": 280,
+                "Description": "Pepperoni, mozzarella and pizza sauce"
+            },
+            "Stromboli Quattro Formaggi": {
+                "Calories": 260,
+                "Description": "Provolone, mozzarella, Cheddar, Parmesan and grilled red bell peppers wrapped in pizza crust"
+            }
+        },
+        "Saute": {
+            "Summer Vegetable Couscous Plate": {
+                "Calories": 270,
+                "Description": "Summer squash, sun-dried tomatoes, peppers & onion over toasted lemon couscous with side of hummus"
+            }
+        },
+        "Soups": {
+            "Chicken Noodle Soup": {
+                "Calories": 90,
+                "Description": "Tender chicken, egg noodles and vegetables simmered in savory chicken stock"
+            },
+            "Moroccan Chickpea Soup": {
+                "Calories": 70,
+                "Description": "A hearty chickpea and vegetable soup flavored with toasted spices"
+            }
+        },
+        "The Farm Stand/ Deli": {
+            "Deli Ham": {},
+            "Salami": {},
+            "Turkey Breast": {},
+            "Creamy Tuna Salad": {},
+            "Flour Tortilla": {},
+            "White Bread": {},
+            "Whole Grain Tortilla": {},
+            "Whole Wheat Bread": {},
+            "Green Leaf Lettuce": {},
+            "Sliced Red Onions": {},
+            "Sliced Tomatoes": {},
+            "Pesto Mayonnaise": {},
+            "Sriracha Mayonnaise": {}
+        },
+        "The Farm Stand/ Salad Bar": {
+            "Caesar Pasta Salad": {
+                "Calories": 200,
+                "Description": "Cavatappi pasta, plum tomatoes, cucumbers, red onion and feta in a Caesar dressing"
+            },
+            "Whole Grain Penne Vegetable Salad": {
+                "Calories": 110,
+                "Description": "Grilled vegetables and whole grain penne pasta tossed in a balsamic vinaigrette"
+            },
+            "Shredded Cheddar Cheese": {},
+            "Sunflower Seeds": {},
+            "Croutons": {},
+            "Black Beans": {},
+            "Black Olives": {},
+            "Cantaloupe": {},
+            "Chopped Fresh Spinach": {},
+            "Corn": {},
+            "Cucumbers": {},
+            "Garbanzo Beans": {},
+            "Honeydew Melon": {},
+            "Iceberg Lettuce": {},
+            "Romaine Lettuce": {},
+            "Shredded Carrots": {},
+            "Sliced Beets": {},
+            "Sliced Green Bell Peppers": {},
+            "Sliced Red Onions": {},
+            "Tomato Wedges": {},
+            "Creamy Caesar Dressing": {},
+            "Honey Mustard Dressing": {},
+            "Lite Italian Dressing": {},
+            "Oil & Vinegar": {},
+            "Ranch Dressing": {}
+        },
+        "Travel/ Round Grill": {
+            "Sweet & Sour Chicken Stir-Fry": {
+                "Calories": 110,
+                "Description": "Stir-fried chicken, onion, bell peppers, carrots and pineapple coated with a sweet and sour sauce"
+            }
+        },
+        "True Balance": {
+            "Lemon-Ginger Basmati Rice": {
+                "Calories": 170,
+                "Description": "Basmati rice flavored with ginger, garlic, turmeric and lemon"
+            }
+        },
+        "Honeycakes/Bakery": {
+            "Chocolate Chip Cookie": {
+                "Calories": 120,
+                "Description": "Freshly baked chewy cookie with semisweet chocolate chips"
+            },
+            "Oatmeal Raisin Cookie": {
+                "Calories": 120,
+                "Description": "Freshly baked chewy oatmeal cookie with raisins"
+            },
+            "Sugar Cookie": {
+                "Calories": 120,
+                "Description": "Freshly baked soft sugar cookie"
+            }
+        }
+    },
+    "Dinner": {
+        "Ember/Grill": {
+            "Hamburger on White Roll": {
+                "Calories": 330,
+                "Description": "Beef burger on white hamburger roll"
+            },
+            "Hot Dog on Roll": {
+                "Calories": 310,
+                "Description": "Grilled hot dog on roll"
+            },
+            "Grilled Cheese Sandwich": {
+                "Calories": 320,
+                "Description": "Classic grilled American cheese sandwich on white bread"
+            },
+            "Crispy Shoestring French Fries": {
+                "Calories": 180,
+                "Description": "Piping hot crispy shoestring French fries"
+            },
+            "American Cheese": {},
+            "Beyond Burger® Patty": {},
+            "Grilled Chicken Breast": {},
+            "Green Leaf Lettuce": {},
+            "Sliced Onions": {},
+            "Sliced Tomatoes": {},
+            "Dill Pickle Slices": {}
+        },
+        "Grubb/ Mainline": {
+            "Herb Roasted Pork Loin": {
+                "Calories": 170,
+                "Description": "Oven-roasted pork loin seasoned with thyme, sage and garlic"
+            },
+            "Roasted Sweet Potatoes": {
+                "Calories": 100,
+                "Description": "Oven-roasted seasoned cubed sweet potatoes"
+            },
+            "Broccoli & Cauliflower": {
+                "Calories": 15,
+                "Description": "Steamed broccoli and cauliflower"
+            }
+        },
+        "Hearth/Pizza": {
+            "Classic Cheese Pizza": {
+                "Calories": 270,
+                "Description": "Mozzarella cheese and pizza sauce"
+            },
+            "Pepperoni Pizza": {
+                "Calories": 280,
+                "Description": "Pepperoni, mozzarella and pizza sauce"
+            },
+            "Stromboli Quattro Formaggi": {
+                "Calories": 280,
+                "Description": "Provolone, mozzarella, cheddar, Parmesan and grilled red bell peppers wrapped in pizza crust"
+            }
+        },
+        "Saute": {
+            "Spinach Lentil Fritters": {
+                "Calories": 100,
+                "Description": "Brown lentils combined with spinach, cilantro, jalapenos and curry powder baked & topped with sriracha dressing"
+            }
+        },
+        "Soups": {
+            "Chicken Noodle Soup": {
+                "Calories": 90,
+                "Description": "Tender chicken, egg noodles and vegetables simmered in savory chicken stock"
+            },
+            "Moroccan Chickpea Soup": {
+                "Calories": 70,
+                "Description": "A hearty chickpea and vegetable soup flavored with toasted spices"
+            }
+        },
+        "The Farm Stand/ Deli": {
+            "Deli Ham": {},
+            "Salami": {},
+            "Turkey Breast": {},
+            "Creamy Tuna Salad": {},
+            "Flour Tortilla": {},
+            "White Bread": {},
+            "Whole Grain Tortilla": {},
+            "Whole Wheat Bread": {},
+            "Green Leaf Lettuce": {},
+            "Sliced Red Onions": {},
+            "Sliced Tomatoes": {},
+            "Pesto Mayonnaise": {},
+            "Sriracha Mayonnaise": {}
+        },
+        "The Farm Stand/ Salad Bar": {
+            "Caesar Pasta Salad": {
+                "Calories": 200,
+                "Description": "Cavatappi pasta, plum tomatoes, cucumbers, red onion and feta in a Caesar dressing"
+            },
+            "Whole Grain Penne Vegetable Salad": {
+                "Calories": 110,
+                "Description": "Grilled vegetables and whole grain penne pasta tossed in a balsamic vinaigrette"
+            },
+            "Shredded Cheddar Cheese": {},
+            "Sunflower Seeds": {},
+            "Croutons": {},
+            "Black Beans": {},
+            "Black Olives": {},
+            "Cantaloupe": {},
+            "Chopped Fresh Spinach": {},
+            "Corn": {},
+            "Cucumbers": {},
+            "Garbanzo Beans": {},
+            "Honeydew Melon": {},
+            "Iceberg Lettuce": {},
+            "Romaine Lettuce": {},
+            "Shredded Carrots": {},
+            "Sliced Beets": {},
+            "Sliced Green Bell Peppers": {},
+            "Sliced Red Onions": {},
+            "Tomato Wedges": {},
+            "Creamy Caesar Dressing": {},
+            "Honey Mustard Dressing": {},
+            "Lite Italian Dressing": {},
+            "Oil & Vinegar": {},
+            "Ranch Dressing": {}
+        },
+        "Travel/ Round Grill": {
+            "Beef & Pickled Onion Topped Hummus": {
+                "Calories": 510,
+                "Description": "Toasted cumin hummus topped with Middle Eastern-spiced ground beef, pickled onions and chermoula"
+            }
+        },
+        "True Balance": {
+            "Asian Chicken Lettuce Wrap": {
+                "Calories": 300,
+                "Description": "Sauteed garlic-ginger chicken and rice served in a lettuce wrap"
+            }
+        }
+    },
+    "Latenight": {}
+}

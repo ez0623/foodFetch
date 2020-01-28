@@ -23,13 +23,6 @@ def scrape(result, daily=True):
 
     menu = {}
     menu_section = soup.find_all(id='menuDailyDiv')
-    # deli, desert, traditions, grill, round grill, oven, produce market, saute, soups, daily feature
-    
-    #### pulls headers
-
-    # for header in headers:
-    #     if 'section-subtitle' in header['class']:
-    #         menu[header.text] = {}
     
     def header_and_items(tag):
         headitem = (tag.has_attr('class') and 'section-subtitle' in tag['class']) or (tag.has_attr('class') and 'viewItem' in tag['class'])
@@ -80,13 +73,17 @@ if __name__ == '__main__':
         for i in ('Breakfast', 'Brunch', 'Lunch', 'Dinner', 'Latenight'):
             payload = get_url(eval(i.upper()), day_string)
             result = requests.get(f'https://uci.campusdish.com/en/LocationsAndMenus/{loc}?', params = payload)
-            day_menu[i] = scrape(result)
+            if result.status_code == 200:
+                print(f'Getting data for {loc} {i}')
+                day_menu[i] = scrape(result)
+            else:
+                print(f'Could not access: {i} for {loc}')
         #json
         try:
             os.mkdir('./data')
-            fp = open((r'./data/' + day_string.replace('/', '-') + f'_{loc}_menu.json'), 'x', encoding = 'utf-8')
+            fp = open((r'./data/' + f'Creating {day_string.replace("/", "-")}_{loc}_menu.json'), 'x', encoding = 'utf-8')
         except FileExistsError:
-            fp = open((r'./data/' + day_string.replace('/', '-') + f'_{loc}_menu.json'), 'w', encoding = 'utf-8')
+            fp = open((r'./data/' + f'Creating {day_string.replace("/", "-")}_{loc}_menu.json'), 'w', encoding = 'utf-8')
         json.dump(day_menu, fp, ensure_ascii=False, indent=4)
         fp.close()
     else:
